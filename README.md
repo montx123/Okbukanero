@@ -1,4 +1,57 @@
-<header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Okbukanero</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #000000;
+      font-family: 'Arial Black', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin: 0.2em 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 0 #000;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin: 0.2em 0 1em;
+      font-weight: normal;
+      color: #333;
+    }
+    .btn {
+      padding: 1em 2em;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+    .btn:hover {
+      background: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>OKEY</h1>
+  <h1>BUKANERO</h1>
+  <h2>El verdadero y único programa bukanero</h2>
+  <a href="https://zeno.fm/radio/utaaqemlboovv" class="btn" target="_blank">¡Escuchanos en vivo!</a>
+</body>
+</html>
 
 <!--
   <<< Author notes: Course header >>>
