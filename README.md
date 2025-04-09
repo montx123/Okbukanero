@@ -1,5 +1,43 @@
-<header>
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Okey Bukanero - Radio en Vivo</title>
+  <style>
+    body {
+      background: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #000;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+    p {
+      font-size: 1.2em;
+      margin-top: 0;
+    }
+    audio {
+      margin-top: 20px;
+      width: 100%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Okey Bukanero</h1>
+  <p>Transmitiendo en vivo desde Zeno.fm</p>
+  
+  <audio controls>
+    <source src="https://stream.zeno.fm/utaaqemlboovv" type="audio/mpeg">
+    Tu navegador no soporta el reproductor de audio.
+  </audio>
+</body>
+</html>
 <!--
   <<< Author notes: Course header >>>
   Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
